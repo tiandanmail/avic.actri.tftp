@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tftp server
+Bundle-SymbolicName: avic.actri.tftp;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: avic.actri.tftp.Activator
+Require-Bundle: org.apache.commons.net,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jface.text
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: actri.avic

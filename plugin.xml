@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="avic.actri.tftp.view.TFtpServerView"
+            icon="icons/tftpd.png"
+            id="avic.actri.view.tftp"
+            name="TFTP"
+            restorable="true">
+      </view>
+   </extension>
+</plugin>
